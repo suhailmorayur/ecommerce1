@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+header{
+    height: 72px;
+    background-color: bisque;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+    height: 100%;
+}
+
+#navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    
+  
+}
+
+.firstbutton{
+    background-color: brown;
+    padding: 0.5rem;
+    color: white;
+   border-radius: 0.5rem;
+  
+}
+
+#logo{
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    font-family: 'Lemon', serif;
+}
+
+#logo1{
+  color: black;
+  font-size: 20px;
+  
+}
+
+.section1{
+    padding-top: 70px;
+    background-color: beige;
+    height: 450px;
+}
+.section1 .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section1content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#heading{
+    font-size: 65px;
+}
+
+
+
+#Shopnow{
+    background-color: brown;
+    padding: 1rem;
+    color: white;
+
+}
+
+#contactus{
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    color: white;
+    margin-left: 20px;
+}
+.product{
+    
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-color: rgb(233, 245, 170);
+}
+
+#heading2{
+    margin-top: 200px;
+}
+
+.product img{ 
+    width: 400px;
+    height: 400px;
+}
+
+.product h3{
+    font-size: 2rem;
+}
+.product .raiting{
+    color: rgb(232, 7, 7);
+    font-size: 1rem;
+    
+}
+
+.product .price{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.priceandbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.product button{
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+}
+
+.productlist{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+
+footer{
+    margin-top: 90px;
+    background-color:  rgb(43, 42, 42);
+    opacity: 0.7;
+    
+    align-items: center;
+    height: 330px;
+}
+
+
+.fruitslist{
+
+}
+
+.footer1 ul{
+margin-top: 50px;
+    list-style: none;
+}
+.footer1 .container{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.footer1 h4{
+    color: white;
+    font-size: 2rem;
+}
+
+.footer1 li{
+    color: white;
+    font-size: 1rem;
+}
+
+.Copyright{
+    
+  background-color: black;
+    color: white;
+   
+
+}
+
+.copy{
+   display: flex;
+   justify-content: center;
+}
